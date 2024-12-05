@@ -1,0 +1,16 @@
+t1: html, css, js
+-> portfolio
+-> group project
+t2: js
+
+github: 
+git clone: tạo bản sao về máy của project trên github 
+b1: git clone + link đến repo
+b1: git add remote origin + link đến repo : clone source từ remote về máy
+
+git init
+git status
+git add .
+git commit -m "comment"
+git add remote origin + link đến repo ( git remote add origin)
+git push -u origin master
