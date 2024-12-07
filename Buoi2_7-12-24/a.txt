@@ -1,0 +1,18 @@
+git checkout -b + tên nhánh mới: sang nhánh mới trên github 
+git add .
+git commit -m ""
+git push -u origin + tên nhánh mới
+
+git branch : liệt kê các nhánh
+git checkout + tên nhánh: di chuyển đến nhánh có sẵn
+git checkout -b + tên nhánh: di chuyển đến tên nhánh có sẵn, nếu chưa có thì tạo mới nhánh
+
+merge code:
+git checkout + tên nhánh
+git pull origin + tên nhánh
+
+xử lý conflict dùng rebase:
+git rebase + tên nhánh
+git add . 
+git continue
+git push -u origin + tên nhánh -f: push lên remote
