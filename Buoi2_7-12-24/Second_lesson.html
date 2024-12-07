@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <style>
+        .t7 {
+            color: orange;
+        }
+        .t3 {
+            color: brown;
+            background-color: aquamarine;
+        }
+        .t5 {
+            font-size: 100px;
+        }
+        #abc {
+            color: blue;
+        }
+    </style> -->
 </head>
 <body>
-    <h1>Xin chao</h1>
-    <p>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-        <li>D</li>
-        <li>E</li>
-        <li>F</li>
-        <li>G</li>
-    </p>
+    <h1 class="t7 t3 t5" style="color: black;">Xin chao</h1>
+    <h1 class="t7">Buoi 2</h1>
+    <ul>
+        <li id="abc">Nguyen Van A</li>
+        <li id="abc">Nguyen Van B</li>
+        <li id="abc">Nguyen Van C</li>
+        <li>Nguyen Van D</li>
+        <li>Nguyen Van E</li>
+        <li>Nguyen Van F</li>
+        <li>Nguyen Van G</li>
+    </>
 </body>
 </html>
 
@@ -23,3 +40,24 @@
 <!-- alt shift xuống: copy các hàng -->
 <!-- ul>li*7: tạo thẻ ul có 7 li  -->
 <!-- alt + trỏ chuột đến nơi muốn sửa: sửa nhiều vị trí -->
+
+<!-- CSS -->
+<!-- 3 cách nhúng css: inline, external, internal  -->
+<!-- độ ưu tiên: inline, (thứ tự viết), internal, external -->
+<!-- (!important): quan trọng, ưu tiên dùng -->
+<!-- inline: <h1 style="color: red; font-size: 22px; font-weight: 600px">Xin chào</h1> -->
+<!-- internal: <head>
+    <style>
+        h1 {
+            color: orange;
+            font-size: 22px;
+            font-weight: 600px;
+            line-height: 20px;
+        }
+    </style>
+</head> -->
+    <!-- selector: 
+        .ten class 
+        #ten id 
+        trong css, class nào viết sau thì phần tử ưu tiên dùng class đó
+external: viết thành 1 file css riêng -->

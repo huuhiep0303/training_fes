@@ -1,0 +1,19 @@
+.t7 {
+    color: orange;
+}
+.t3 {
+    color: brown;
+    background-color: aquamarine;
+}
+.t5 {
+    font-size: 100px;
+}
+#abc {
+    color: blue;
+}
+span {
+    display: block;
+    width: 200px;
+    height: 100px;
+    padding: 60px 0px 90px 20px;
+}

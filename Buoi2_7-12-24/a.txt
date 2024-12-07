@@ -10,9 +10,13 @@ git checkout -b + tên nhánh: di chuyển đến tên nhánh có sẵn, nếu c
 merge code:
 git checkout + tên nhánh
 git pull origin + tên nhánh
+git pull: lấy code từ nhiều nhánh khác nhau
 
 xử lý conflict dùng rebase:
 git rebase + tên nhánh
 git add . 
 git continue
 git push -u origin + tên nhánh -f: push lên remote
+
+git fetch --o: lấy thông tin của những thay đổi mới trên github về repo 
+git push: lấy thông tin về working area
