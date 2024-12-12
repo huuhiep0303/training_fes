@@ -21,3 +21,63 @@ small {
 .momfw {
     color: rgb(92, 22, 22);
 }
+p.mini_p {
+    font-family: monospace;
+    font-size: .9em;
+}
+span.cool { 
+    color: #444;
+    font-weight: 700;
+}
+span.better {
+    color: #444;
+    font-weight: 700;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+div.pictures div.picture {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+div.pictures div.picture figure {
+    margin: 10px;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+div.pictures div.picture img {
+    width: 100%;
+}
+div.pictures div.picture figure figcaption {
+    font-size: .7em;
+}
+div.pictures div.para_right {
+    float: left;
+    width: 55%;
+}
+blockquote {
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #456;
+}
+a.small_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.small_pic img.small_pic {
+    height: 2em;
+}
+span.visited {
+    color: #941352;
+}
