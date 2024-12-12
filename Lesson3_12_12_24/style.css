@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+/* dùng font không có sẵn trong vscode  */
+/* google fonts  */
+/* lấy logo  */
+/* font awesome cdn  */
+
+
+body {
+    /* căn giữa */
+    /* giới hạn chiều ngang: width, max-width  */
+    max-width: 800px;
+    margin: auto; /*chia đều trên dưới trái phải*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+
+.background-pink {
+    background-color: #ea646b;
+}
+
+.text-pink {
+    color: #ea646b;
+}
+
+.display-flex {
+    display: flex;
+    /* đưa các thẻ con trong class của nó lên cùng 1 hàng  */
+    flex-direction: row;
+    /* xếp theo chiều ngang  */
+}
+
+.justify-content-center {
+    justify-content: center; 
+    /* trục ngang */
+}
+
+.justify-content-space-between {
+    justify-content: space-between; 
+    /* trục ngang */
+}
+.align-items-center {
+    align-items: center;
+    /* trục dọc  */
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    /* chuyển các ký tự thành chữ in hoa  */
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+    flex-direction: c;
+}
+
+.letter-j {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ea646b;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 4px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    /* background-color: #fff;
+    color: #ea646b;
+    border: solid;
+    padding: 10px 20px;
+    border-radius: 5px solid;
+    cursor: pointer; */
+    border: 2px solid #ea646b;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.line-height-1_6 {
+    line-height: 1.6;
+}
+.skill {
+    background-color: #fff;
+    border: 1px solid #111;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+}
+.text-align-left {
+    text-align: left;
+}

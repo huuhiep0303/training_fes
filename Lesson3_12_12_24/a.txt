@@ -1,0 +1,4 @@
+trục dọc cross axis 
+trục ngang main axis
+display flexbox
+
