@@ -41,6 +41,9 @@ body {
     justify-content: space-between; 
     /* trục ngang */
 }
+.justify-content-flex-start {
+    justify-content: flex-start; 
+}
 .align-items-center {
     align-items: center;
     /* trục dọc  */
@@ -71,7 +74,9 @@ body {
 .font-weight-600 {
     font-weight: 600;
 }
-
+.font-weight-500 {
+    font-weight: 500;
+}
 .display-inline-block {
     display: inline-block;
 }
@@ -83,11 +88,12 @@ body {
 .font-size-14 {
     font-size: 14px;
 }
-
 .padding-bottom-4 {
     padding-bottom: 4px;
 }
-
+.padding {
+    padding: 10px;
+}
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -116,10 +122,16 @@ button {
     background-color: #fff;
     border: 1px solid #111;
     border-radius: 20px;
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 6px 12px;
+    font-size: 10px;
     color: #333;
 }
 .text-align-left {
     text-align: left;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.gap-50 {
+    gap: 50px;
 }
