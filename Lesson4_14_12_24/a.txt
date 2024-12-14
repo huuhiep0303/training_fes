@@ -1,0 +1,26 @@
+flex shrink: cho biết phần tử đó nhỏ hơn các phần tử còn lại bao nhiêu lần 
+
+flex grow: cho 1 phần tử lớn hơn các phần tử còn lại bao nhiêu lần, các phần tử cùng thuộc tính cha (containers)
+
+grid: hiển thị dạng lưới, chia bố cục, ít sử dụng, thường sử dụng components 
+
+position: phải thêm ít nhất 1 trong 4 thuộc tính top, left, right, bottom 
+static: default position
+relative: vị trí tương đối so với element khác
+absolute: nổi bật lên trên 1 element parent 
+fixed: cố định vị trí, không mất hình trên trang web
+sticky: cố định và dính 
+
+box-shadow: độ bóng, yêu cầu là thẻ block or inline-block
+text-shadow
+box-shadow
+
+transition: độ trễ 0.3->0.5s
+delay
+duration 
+property
+timing function
+
+pseudo: before đầu thẻ, after cuối thẻ, hover di chuyển chuột vào, active dùng cho link, visited check link đã được truy cập, nth-child set các thuộc tính cho các thẻ con của thẻ nào đó
+syntax: tên thẻ:pseudo {content}
+
