@@ -1,0 +1,33 @@
+landing page
+nếu làm trang macbook thì chỉ làm 1/3, đến airdrop
+
+hover: rà chuột
+
+animations css (có liên quan đến hover)
+transition: độ trễ thời gian
+transition-delay: 
+transition-duration: 
+transition-property: 
+transition-timing-function: linear/*ease/ease-in/*ease-out/*ease-in-out 
+
+transition + transform: 
+transform: rotate/skew(X/Y)/scale/
+
+animations: chuyển động mà không cần hover
+chia theo phần trăm thời gian hoặc thời gian
+animation-name: tên của animation
+animation-duration: thời gian quá trình animation
+animation-delay:
+animation-iteration-count: số lần, infinite: vô cùng
+animation-direction: (reverse: chuyển động ngược lại, alternate: thay thế liên tục, alternative-reverse)
+animation-timing-function:
+animation-fill-mode: none, forwards, backwards, both
+
+animation: mymove 5s (duration) linear 2s (delay) infinitive alternative
+
+transform:
+translate(X/Y): khi hover vào thì nó dịch chuyển sang ngang hoặc xuống dưới
+perspective property: none/
+
+HW: chọn 1 cái set 1 và 1 cái set 2 
+
