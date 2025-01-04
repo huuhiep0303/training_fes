@@ -1,0 +1,87 @@
+function in js
+function name(param)
+function sum(a,b) {
+    return;  ->tra ve kieu void 
+}
+
+function sum(a,b) {
+    ->undefined
+}
+
+function sum(...arr) {
+    console.log(...arr)
+}
+sum(2,3,4) -> chuyen thanh array
+
+string in js
+let str = "hello 'abc'"
+console.log(str) 
+
+let a=3;
+let str=`number: ${a}`
+console.log(str)
+
+str.length -> do dai chuoi 
+str.trim() -> xoa ki tu trang, ki tu xuong dong trong chuoi o dau va cuoi
+
+let str="1,2,3"
+console.log(str.split(",")) 
+console.log(str.split()) -> tach string thanh cac mang con
+
+upperCase/lowerCase
+
+parseInt/parseFloat
+
+array: 
+declare: const arr = []
+const arr=[1,2,3]
+arr.length -> array length
+arr.push(4,5,6) -> add an element to the end of the array
+arr.pop() -> remove the element from the end of the array
+arr.unshift(-1,0) -> add an element to the start of the array
+arr.shift() -> remove the element from the start of the array
+
+arr.indexOf(1) -> get the first index of the element of the array
+arr.lastIndexOf(1) -> get the last index of the element of the array 
+
+arr.join(";") -> chuyen mang thanh cac string phan cach bang dau ;
+
+arr.forEach(number =>) {
+    
+} -> duyet qua tung element in array 
+
+arr.forEach((number, indexNumber, array) => {
+    console.log(`number: $ {number}, index: ${indexNumber}, array: ${array}`)
+})
+
+function in function:
+function sum(a,b) {
+    return a+b
+}
+
+function SumAll(sum) {
+    return sum(1,2)
+hoặc
+    let a = () => {
+        console.log("vao a");
+        return 3;
+    }
+    return a;
+}
+
+object: 
+const user = {
+    name: "abc",
+    age: 22
+}
+user.name
+user.age 
+
+constructor function:
+function user(nameValue, ageValue) {
+    this.name = nameValue;
+    this.age = ageValue
+}
+let user1= new User("Java", 20)
+
+
