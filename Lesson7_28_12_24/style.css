@@ -1,0 +1,58 @@
+body {
+    background-color: #111;
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+.container {
+    position: relative;
+    font-size: 25px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.content-color-white {
+    color: #fff;
+}
+
+.content-color-gray {
+    color: #8e8e93;
+}
+
+.width-500 {
+    width: 700px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.gap-20 {
+    gap: 10px;
+}
+
+.width-33 {
+    width: calc(100% / 3);
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.block {
+    width: calc(100% / 3); 
+    padding: 10px;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+

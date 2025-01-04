@@ -1,0 +1,35 @@
+javascript: ngôn ngữ thông dịch
+tương tự như css, có inline, internal, external
+
+các sự kiện:
+inline
+onclick=function, 
+onmousedown=function, 
+onmouseup=function,
+
+internal
+<script>code</script>, để ở head hay body đều được
+
+external
+<script src="file.js"></script>, file.js là file chứa code js
+
+syntax:
+- khai báo biến: 
+const variable_name = khai báo hằng
+var variable_name = khai báo biến
+let variable_name = khai báo biến
+- kiểu dữ liệu: string, number, boolean, null, nan (not a number), undefined, array, object,
+    cộng chuỗi với số, cộng chuỗi với chuỗi, 
+    object: a={name='Hiep', age=22, skills=['js', 'html', 'css']}
+
+- toán tử: 
+
+console.log(")
+console.error(")
+console.warn(")
+
+if elseif else
+switch case
+while, do while
+
+ternary: toán tử ba ngôi
