@@ -1,0 +1,56 @@
+Bai 1 
+function showDate() {
+    const date = new Date();
+    console.log(date.toLocaleString()); // -> cach 1
+
+    const hour = date.getHours();
+    const minute = date.getMinutes();
+    const second = date.getSeconds();
+    const day = date.getDay();
+    const month = date.getMonth()+1;
+    const year = date.getFullYear();
+
+    console.log(`${hour}:${minute}:${second < 10 ? '0' + second.toString() : second} ${day}/${month}/${year}`)
+}
+
+Bai 2
+function showDate() {
+    const date = new Date();
+
+    const day = date.getDay();
+    const month = date.getMonth()+1;
+    const year = date.getFullYear();
+
+    console.log(`${month}-${day}-${year}`)
+    console.log(`${moth}/${month}/${year}`)
+    console.log(`${day}-${month}-${year}`)
+}
+
+Bai 8
+function showMonth() {
+    const months = {
+        0: 'Thang 1',
+        1: 'Thang 2',
+        2: 'Thang 3',
+        3: 'Thang 4',
+        4: 'Thang 5',
+        5: 'Thang 6',
+        6: 'Thang 7',
+        7: 'Thang 8',
+        8: 'Thang 9',
+        9: 'Thang 10',
+        10: 'Thang 11',
+        11: 'Thang 12',
+    }
+
+    const date = new Date();
+    const monthIndex = date.getMonth();
+    console.log(months[monthIndex])
+}
+
+
+DOM: document object model (HTML/XML )
+- cấu trúc tương tự như cây
+- xử lý sự kiện 
+
+- document.: node ngoài cùng, to nhất

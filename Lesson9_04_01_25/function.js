@@ -1,5 +1,6 @@
 console.log("B3")
 function checkIncreasing(number) {
+    // chuyen number thanh string
     const str = number.toString();
     // console.log(str);
     for (let i=0; i<str.length; i++) {
