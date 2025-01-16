@@ -2,6 +2,8 @@
 // document.createElement("div");
 // tạo ra 1 node mới 
 
+import { A } from "../S_Pokemon/function";
+
 // document.querySelector('.diva')
 // // kiểu tóm gọn, trả về 1 phần tử đầu tiền trùng khớp dựa trên tham số truyền vào
 
@@ -26,34 +28,35 @@
 const pokemon = [
     {
         name: 'bulbasaur',
-        image: 'link'
+        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
     },
     {
-        name: 'bulbasaur',
-        image: 'link'
+        name: 'ivysaur',
+        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
     },
     {
-        name: 'bulbasaur',
-        image: 'link'
+        name: 'venusaur',
+        image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'
     }
 ]
 
 
-function changeName() {
-    const nameDiv = document.querySelector('.pokemon-name')
-    nameDiv.innerText = 'Pikachu' // chèn dang text
-    nameDiv.innerText = '<p>Pikachu</p>' // html trong html
-    console.log(nameDiv)
-    nameDiv.remove // delete 
-    nameDiv.innerHTML = '<p>' + Name + '</p>' // chèn dạng html
+// function changeName() {
+//     const nameDiv = document.querySelector('.pokemon-name')
+//     nameDiv.innerText = 'Pikachu' // chèn dang text
+//     nameDiv.innerText = '<p>Pikachu</p>' // html trong html
+//     console.log(nameDiv)
+//     nameDiv.remove // delete 
+//     nameDiv.innerHTML = '<p>' + Name + '</p>' // chèn dạng html
 
-}
+// }
 
-function changeImage() {
-    const imageDiv = document.querySelector('img')
-    imageDiv.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png'
-    console.log(imageDiv)
-}
+// function changeImage() {
+//     const imageDiv = document.querySelector('img')
+//     imageDiv.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png'
+//     console.log(imageDiv)
+// }
 
 
 // btvn: bấm nút thì đổi hình đổi tên, phần tử cuối thì chạy lên phần tử đầu tiên 
+
