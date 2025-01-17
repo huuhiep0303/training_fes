@@ -1,0 +1,13 @@
+JS:
+- Hoisting
+- Truthy and falsy 
+- for / for in / for of 
+
+JS advanced:
+- callback: payment, login
+- object prototype: get/set/this 
+- array, methods
+- Synchronous/asynchronous: xử lý đồng bộ (C/C++/Java) và bất đồng bộ (JS)
+- setTimeout
+- setInterval: infinity loop
+- clearInterval

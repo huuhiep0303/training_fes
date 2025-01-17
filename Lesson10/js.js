@@ -41,21 +41,21 @@ const pokemon = [
 ]
 
 
-// function changeName() {
-//     const nameDiv = document.querySelector('.pokemon-name')
-//     nameDiv.innerText = 'Pikachu' // chèn dang text
-//     nameDiv.innerText = '<p>Pikachu</p>' // html trong html
-//     console.log(nameDiv)
-//     nameDiv.remove // delete 
-//     nameDiv.innerHTML = '<p>' + Name + '</p>' // chèn dạng html
+function changeName() {
+    const nameDiv = document.querySelector('.pokemon-name')
+    nameDiv.innerText = 'Pikachu' // chèn dang text
+    nameDiv.innerText = '<p>Pikachu</p>' // html trong html
+    console.log(nameDiv)
+    nameDiv.remove // delete 
+    nameDiv.innerHTML = '<p>' + Name + '</p>' // chèn dạng html
 
-// }
+}
 
-// function changeImage() {
-//     const imageDiv = document.querySelector('img')
-//     imageDiv.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png'
-//     console.log(imageDiv)
-// }
+function changeImage() {
+    const imageDiv = document.querySelector('img')
+    imageDiv.src = 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png'
+    console.log(imageDiv)
+}
 
 
 // btvn: bấm nút thì đổi hình đổi tên, phần tử cuối thì chạy lên phần tử đầu tiên 
