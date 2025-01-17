@@ -74,13 +74,39 @@ const pokemon = [
 ]
 
 // console.log(pokemon.length);
-const pok_name = document.querySelector("._name");
-const pok_img = document.querySelector("._img");
-const buttonMenu = document.querySelector(".evolve");
-let index = 0;
+// const pok_name = document.querySelector("._name");
+// const pok_img = document.querySelector("._img");
+// const buttonMenu = document.querySelector(".evolve");
+// let index = 0;
 
-buttonMenu.onclick = function() {
-    pok_name.innerText = pokemon[index].name;
-    pok_img.src = pokemon[index].image;
-    index = (index + 1) % pokemon.length;
+// buttonMenu.onclick = function() {
+//     pok_name.innerText = pokemon[index].name;
+//     pok_img.src = pokemon[index].image;
+//     index = (index + 1) % pokemon.length;
+// }
+
+const container = document.querySelector(".container");
+const buttonadd = document.querySelector(".button");
+
+buttonadd.onclick = function() {
+    const quantity = document.querySelector(".quantity").value;
+    container.innerHTML = ""; // Clear the container before adding new Pokémon
+
+    for (let i = 0; i < quantity && i < pokemon.length; i++) {
+        const poke = pokemon[i];
+        const element = document.createElement("div");
+        element.className = "elements";
+        element.innerHTML = `
+            <div class="id">#${i + 1}</div>
+            <div class="picture">
+                <img src="${poke.image}" alt="${poke.name}">
+            </div>
+            <div class="name">${poke.name}</div>
+            <div class="categories">
+                <div class="category">Grass</div>
+                <div class="category">Poison</div>
+            </div>
+        `;
+        container.appendChild(element);
+    }
 }
