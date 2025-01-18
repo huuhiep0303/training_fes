@@ -89,10 +89,10 @@ const container = document.querySelector(".container");
 const buttonadd = document.querySelector(".button");
 
 buttonadd.onclick = function() {
+    // DOM 
     const quantity = document.querySelector(".quantity").value;
-    container.innerHTML = ""; // Clear the container before adding new Pokémon
-
-    for (let i = 0; i < quantity && i < pokemon.length; i++) {
+    const currentCount = container.children.length; // Get the current number of Pokémon displayed
+    for (let i = currentCount; i < currentCount + parseInt(quantity) && i < pokemon.length; i++) {
         const poke = pokemon[i];
         const element = document.createElement("div");
         element.className = "elements";
@@ -108,5 +108,34 @@ buttonadd.onclick = function() {
             </div>
         `;
         container.appendChild(element);
+    }   
+}
+
+
+const button_auto = document.querySelector(".button_auto")
+let autoIndex = 1;
+
+function add_auto() {
+    if (autoIndex < pokemon.length) {
+        const poke = pokemon[autoIndex];
+        const element = document.createElement("div");
+        element.className = "elements";
+        element.innerHTML = `
+            <div class="id">#${autoIndex + 1}</div>
+            <div class="picture">
+                <img src="${poke.image}" alt="${poke.name}">
+            </div>
+            <div class="name">${poke.name}</div>
+            <div class="categories">
+                <div class="category">Grass</div>
+                <div class="category">Poison</div>
+            </div>
+        `;
+        container.appendChild(element);
+        autoIndex++;
     }
+}
+
+button_auto.onclick = function() {
+    setInterval(add_auto, 1000);
 }

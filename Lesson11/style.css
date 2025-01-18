@@ -35,7 +35,7 @@ body {
     font-size: 20px;
 }
 
-.add-pokemon .button {
+.add-pokemon .button, .button_auto {
     background-color: #fff;
     color: black;
     padding: 5px 10px;
@@ -43,6 +43,11 @@ body {
     border-radius: 30px;
     cursor: pointer;
     font-size: 20px;
+}
+
+.add-auto {
+    display: flex;
+    justify-content: center;
 }
 
 .input {
