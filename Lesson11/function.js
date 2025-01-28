@@ -73,25 +73,15 @@ const pokemon = [
     }
 ]
 
-// console.log(pokemon.length);
-// const pok_name = document.querySelector("._name");
-// const pok_img = document.querySelector("._img");
-// const buttonMenu = document.querySelector(".evolve");
-// let index = 0;
-
-// buttonMenu.onclick = function() {
-//     pok_name.innerText = pokemon[index].name;
-//     pok_img.src = pokemon[index].image;
-//     index = (index + 1) % pokemon.length;
-// }
 
 const container = document.querySelector(".container");
 const buttonadd = document.querySelector(".button");
+let index = container.children.length;
 
 buttonadd.onclick = function() {
     // DOM 
     const quantity = document.querySelector(".quantity").value;
-    const currentCount = container.children.length; // Get the current number of Pokémon displayed
+    const currentCount = container.children.length; 
     for (let i = currentCount; i < currentCount + parseInt(quantity) && i < pokemon.length; i++) {
         const poke = pokemon[i];
         const element = document.createElement("div");
@@ -109,19 +99,19 @@ buttonadd.onclick = function() {
         `;
         container.appendChild(element);
     }   
+    index = container.children.length;
 }
 
 
 const button_auto = document.querySelector(".button_auto")
-let autoIndex = 1;
 
 function add_auto() {
-    if (autoIndex < pokemon.length) {
-        const poke = pokemon[autoIndex];
+    if (index < pokemon.length) {
+        const poke = pokemon[index];
         const element = document.createElement("div");
         element.className = "elements";
         element.innerHTML = `
-            <div class="id">#${autoIndex + 1}</div>
+            <div class="id">#${index + 1}</div>
             <div class="picture">
                 <img src="${poke.image}" alt="${poke.name}">
             </div>
@@ -132,7 +122,7 @@ function add_auto() {
             </div>
         `;
         container.appendChild(element);
-        autoIndex++;
+        index++;
     }
 }
 

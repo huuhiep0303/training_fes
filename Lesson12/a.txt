@@ -1,0 +1,10 @@
+promise in js
+- là đối tượng dùng để xử lý các tác vụ bất đồng bộ. gồm 3 trạng thái:
+pending: đang chờ xử lý
+resolved: thành công
+rejected: thất bại
+
+- cách tạo promise:
+.then() -> xử lý kết quả promise thành công
+.catch() -> xử lý kết quả promise thất bại
+.finally() -> thực thi 1 đoạn mã dù promise thành công hay thất bại
