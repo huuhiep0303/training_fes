@@ -8,3 +8,10 @@ rejected: thất bại
 .then() -> xử lý kết quả promise thành công
 .catch() -> xử lý kết quả promise thất bại
 .finally() -> thực thi 1 đoạn mã dù promise thành công hay thất bại
+promise.resolve() -> trả về 1 promise thành công ngay lập tức
+promise.rejected() -> trả về 1 promise thất bại ngay lập tức 
+promise.all() -> xử lý nhiều promise đồng thời
+- nếu tất cả các promise thành công, kết quả trả về là 1 mảng kết quả
+- nếu một promise thất bại, promise.all() thất bại
+
+async/await: xử lý bất đồng bộ
