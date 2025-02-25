@@ -14,4 +14,4 @@ promise.all() -> xử lý nhiều promise đồng thời
 - nếu tất cả các promise thành công, kết quả trả về là 1 mảng kết quả
 - nếu một promise thất bại, promise.all() thất bại
 
-async/await: xử lý bất đồng bộ
+async/await: xử lý bất đồng bộ 
