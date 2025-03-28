@@ -1,0 +1,6 @@
+Vue: 
+- 1 thư viện build FE
+- .vue (React: .jsx)
+
+- lang = "scss", lang = "ts"
+- v-model, v-html, v-if, v-else, v-for, v-bind, v-on, v-show, v-else-if, v-cloak, v-pre, v-once, v-memo 
